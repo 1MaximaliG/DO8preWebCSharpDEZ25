@@ -1,0 +1,14 @@
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\bin\Debug\net10.0\VertiefungCSharp.exe
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\bin\Debug\net10.0\VertiefungCSharp.deps.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\bin\Debug\net10.0\VertiefungCSharp.runtimeconfig.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\bin\Debug\net10.0\VertiefungCSharp.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\bin\Debug\net10.0\VertiefungCSharp.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.AssemblyInfoInputs.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.AssemblyInfo.cs
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\refint\VertiefungCSharp.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.genruntimeconfig.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\ref\VertiefungCSharp.dll
