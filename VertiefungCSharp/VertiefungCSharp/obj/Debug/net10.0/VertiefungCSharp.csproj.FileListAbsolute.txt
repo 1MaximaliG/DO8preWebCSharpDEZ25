@@ -12,3 +12,4 @@ C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\
 C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.pdb
 C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.genruntimeconfig.cache
 C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\ref\VertiefungCSharp.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\VertiefungCSharp\obj\Debug\net10.0\VertiefungCSharp.sourcelink.json

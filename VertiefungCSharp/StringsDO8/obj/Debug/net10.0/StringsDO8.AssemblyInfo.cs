@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StringsDO8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aa3879045d960ce9e4ce4bc837c52c3a56de424")]
 [assembly: System.Reflection.AssemblyProductAttribute("StringsDO8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StringsDO8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

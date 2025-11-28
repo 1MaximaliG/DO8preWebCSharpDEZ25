@@ -1,0 +1,15 @@
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\bin\Debug\net10.0\StringsDO8.exe
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\bin\Debug\net10.0\StringsDO8.deps.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\bin\Debug\net10.0\StringsDO8.runtimeconfig.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\bin\Debug\net10.0\StringsDO8.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\bin\Debug\net10.0\StringsDO8.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.AssemblyInfoInputs.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.AssemblyInfo.cs
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.csproj.CoreCompileInputs.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.sourcelink.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\refint\StringsDO8.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\StringsDO8.genruntimeconfig.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\StringsDO8\obj\Debug\net10.0\ref\StringsDO8.dll
