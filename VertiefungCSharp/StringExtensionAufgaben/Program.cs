@@ -1,11 +1,12 @@
 ﻿using System.Text;
-using StringExtensionAufgaben;//möglich nach hinzufügen des Projekt verweises
+
 
 namespace StringExtensionAufgaben
 {
     public static class StringExtension
     {
-        public static int CountCharInString(this string s, char c)
+        //Aufgaben Strings
+        public static int CountCharInString( string s, char c)
         {
             s = s.ToUpper();
             c = char.ToUpper(c);
@@ -19,7 +20,7 @@ namespace StringExtensionAufgaben
             }
             return counter;
         }
-        public static void AnalyseString(this string s)
+        public static void AnalyseString( string s)
         {
             int vokale = 0;
             int umlaute = 0;
@@ -78,7 +79,7 @@ namespace StringExtensionAufgaben
             Console.WriteLine("Zahlen: ".PadRight(15) + zahlen);
             Console.WriteLine("Sonstige: ".PadRight(15) + rest);
         }
-        public static bool IsPalindrom(this string s)
+        public static bool IsPalindrom( string s)
         {
             s = s.ToLower().Replace(" ", "");
             char[] chararray = s.ToCharArray();
@@ -86,7 +87,7 @@ namespace StringExtensionAufgaben
             string b = new string(chararray);
             return s.Equals(b);
         }
-        public static bool IsPalindromAlt(this string s)
+        public static bool IsPalindromAlt( string s)
         {
             s = s.ToLower();
             char[] chararray = s.ToCharArray();
@@ -94,7 +95,7 @@ namespace StringExtensionAufgaben
             string b = new string(chararray);
             return s.Equals(b);
         }
-        public static bool ContainsDuplicateChars(this string s)
+        public static bool ContainsDuplicateChars( string s)
         {
             char[] textToCharArray = s.ToLower().ToCharArray();
             Array.Sort(textToCharArray);
@@ -107,7 +108,7 @@ namespace StringExtensionAufgaben
             }
             return false;
         }
-        public static bool ContainsDuplicateChars2(this string s)
+        public static bool ContainsDuplicateChars2( string s)
         {
             bool isDouble = false;
             s = s.ToLower();
@@ -126,7 +127,7 @@ namespace StringExtensionAufgaben
             }
             return isDouble;
         }
-        public static string RemoveDuplicateChars(this string s)
+        public static string RemoveDuplicateChars( string s)
         {
             string text = s.ToLower();
             string result = string.Empty;
@@ -139,7 +140,7 @@ namespace StringExtensionAufgaben
             }
             return result;
         }
-        public static string Capitalize(this string s)
+        public static string Capitalize( string s)
         {
             bool IsCapital = true;
             string antwort = string.Empty;//gerne auch mit StringBuilder
@@ -162,7 +163,7 @@ namespace StringExtensionAufgaben
             }
             return antwort;
         }
-        public static string Capitalize(this string s, Char[] chars)
+        public static string Capitalize( string s, Char[] chars)
         {
             bool IsCapital = true;
             StringBuilder antwort = new StringBuilder();
@@ -185,13 +186,15 @@ namespace StringExtensionAufgaben
             }
             return antwort.ToString();
         }
+        //Aufgaben Extensions
+
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!".CountCharInString('o'));
-            Console.WriteLine("Hello, World!".IsPalindrom());
+            //    Console.WriteLine("Hello, World!".CountCharInString('o'));
+            //    Console.WriteLine("Hello, World!".IsPalindrom());
         }
     }
 }

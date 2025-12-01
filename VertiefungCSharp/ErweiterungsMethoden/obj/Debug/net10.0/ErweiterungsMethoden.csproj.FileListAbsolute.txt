@@ -13,3 +13,10 @@ C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMetho
 C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\obj\Debug\net10.0\ErweiterungsMethoden.pdb
 C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\obj\Debug\net10.0\ErweiterungsMethoden.genruntimeconfig.cache
 C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\obj\Debug\net10.0\ref\ErweiterungsMethoden.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\bin\Debug\net10.0\StringExtensionAufgaben.deps.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\bin\Debug\net10.0\StringExtensionAufgaben.runtimeconfig.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\bin\Debug\net10.0\StringExtensionAufgaben.exe
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\bin\Debug\net10.0\StringExtensionAufgaben.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\bin\Debug\net10.0\StringExtensionAufgaben.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\obj\Debug\net10.0\ErweiterungsMethoden.csproj.AssemblyReference.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\ErweiterungsMethoden\obj\Debug\net10.0\Erweiter.0A172D08.Up2Date
