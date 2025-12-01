@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5AEC0BBA-BF41-48B4-ADE7-6B5A220B334D}|StringExtensionAufgaben\\StringExtensionAufgaben.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\stringextensionaufgaben\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AEC0BBA-BF41-48B4-ADE7-6B5A220B334D}|StringExtensionAufgaben\\StringExtensionAufgaben.csproj|solutionrelative:stringextensionaufgaben\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC72784-9D93-480A-AAD5-84088212E472}|ErweiterungsMethoden\\ErweiterungsMethoden.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\erweiterungsmethoden\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC72784-9D93-480A-AAD5-84088212E472}|ErweiterungsMethoden\\ErweiterungsMethoden.csproj|solutionrelative:erweiterungsmethoden\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42B61196-734B-4A4D-BE05-8CA0D8D46185}|StringsDO8\\StringsDO8.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\stringsdo8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42B61196-734B-4A4D-BE05-8CA0D8D46185}|StringsDO8\\StringsDO8.csproj|solutionrelative:stringsdo8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 251,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ErweiterungsMethoden\\Program.cs",
+              "RelativeDocumentMoniker": "ErweiterungsMethoden\\Program.cs",
+              "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ErweiterungsMethoden\\Program.cs",
+              "RelativeToolTip": "ErweiterungsMethoden\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T08:14:24.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringExtensionAufgaben\\Program.cs",
+              "RelativeDocumentMoniker": "StringExtensionAufgaben\\Program.cs",
+              "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringExtensionAufgaben\\Program.cs",
+              "RelativeToolTip": "StringExtensionAufgaben\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T08:09:40.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringsDO8\\Program.cs",
               "RelativeDocumentMoniker": "StringsDO8\\Program.cs",
               "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringsDO8\\Program.cs",
               "RelativeToolTip": "StringsDO8\\Program.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAowLgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAIwLoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T12:26:14.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T12:26:14.819Z"
             }
           ]
         }
