@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{3D293FB0-346F-4600-9BAF-E0441E1584E5}|ExeptionAufgaben\\ExeptionAufgaben.csproj|solutionrelative:exeptionaufgaben\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{42B61196-734B-4A4D-BE05-8CA0D8D46185}|StringsDO8\\StringsDO8.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\stringsdo8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B61196-734B-4A4D-BE05-8CA0D8D46185}|StringsDO8\\StringsDO8.csproj|solutionrelative:stringsdo8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D293FB0-346F-4600-9BAF-E0441E1584E5}|ExeptionAufgaben\\ExeptionAufgaben.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\exeptionaufgaben\\aufgabe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D293FB0-346F-4600-9BAF-E0441E1584E5}|ExeptionAufgaben\\ExeptionAufgaben.csproj|solutionrelative:exeptionaufgaben\\aufgabe2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BC72784-9D93-480A-AAD5-84088212E472}|ErweiterungsMethoden\\ErweiterungsMethoden.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\erweiterungsmethoden\\tn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC72784-9D93-480A-AAD5-84088212E472}|ErweiterungsMethoden\\ErweiterungsMethoden.csproj|solutionrelative:erweiterungsmethoden\\tn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42B61196-734B-4A4D-BE05-8CA0D8D46185}|StringsDO8\\StringsDO8.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\stringsdo8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B61196-734B-4A4D-BE05-8CA0D8D46185}|StringsDO8\\StringsDO8.csproj|solutionrelative:stringsdo8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Aufgabe2.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Aufgabe2.cs",
               "RelativeDocumentMoniker": "ExeptionAufgaben\\Aufgabe2.cs",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "ExeptionAufgaben\\Aufgabe2.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAQwCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T14:08:19.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T14:08:19.731Z"
             },
             {
               "$type": "Document",
@@ -57,14 +56,14 @@
               "RelativeDocumentMoniker": "ExeptionAufgaben\\Program.cs",
               "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Program.cs",
               "RelativeToolTip": "ExeptionAufgaben\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwFIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T09:03:07.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringExtensionAufgaben\\Program.cs",
               "RelativeDocumentMoniker": "StringExtensionAufgaben\\Program.cs",
@@ -72,12 +71,11 @@
               "RelativeToolTip": "StringExtensionAufgaben\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T11:21:59.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T11:21:59.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TN.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ErweiterungsMethoden\\TN.cs",
               "RelativeDocumentMoniker": "ErweiterungsMethoden\\TN.cs",
@@ -89,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ErweiterungsMethoden\\Program.cs",
               "RelativeDocumentMoniker": "ErweiterungsMethoden\\Program.cs",
@@ -97,20 +95,20 @@
               "RelativeToolTip": "ErweiterungsMethoden\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T08:14:24.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T08:14:24.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringsDO8\\Program.cs",
               "RelativeDocumentMoniker": "StringsDO8\\Program.cs",
               "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringsDO8\\Program.cs",
               "RelativeToolTip": "StringsDO8\\Program.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAIwLoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T12:26:14.819Z"
+              "WhenOpened": "2025-11-28T12:26:14.819Z",
+              "EditorCaption": ""
             }
           ]
         }
