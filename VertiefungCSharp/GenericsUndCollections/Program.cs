@@ -7,7 +7,8 @@ namespace GenericsUndCollections
         static void Main(string[] args)
         {
             //Beispiele.TuWas();
-            Aufgabe00.TuWas();
+            //Aufgabe00.TuWas();
+            Aufgabe01.TuWas();
         }
     }
 }
