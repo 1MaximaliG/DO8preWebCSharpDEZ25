@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VertiefungCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20ad61f1b4647f0c758ad19e8250e416466e309e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ea3420e33e7f3b2a968ba1c58d4d7de96c36db")]
 [assembly: System.Reflection.AssemblyProductAttribute("VertiefungCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VertiefungCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("StringExtensionAufgaben")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GenericsUndCollections")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ea3420e33e7f3b2a968ba1c58d4d7de96c36db")]
-[assembly: System.Reflection.AssemblyProductAttribute("StringExtensionAufgaben")]
-[assembly: System.Reflection.AssemblyTitleAttribute("StringExtensionAufgaben")]
+[assembly: System.Reflection.AssemblyProductAttribute("GenericsUndCollections")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GenericsUndCollections")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
