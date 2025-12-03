@@ -1,0 +1,15 @@
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\bin\Debug\net10.0\GenericsUndCollections.exe
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\bin\Debug\net10.0\GenericsUndCollections.deps.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\bin\Debug\net10.0\GenericsUndCollections.runtimeconfig.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\bin\Debug\net10.0\GenericsUndCollections.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\bin\Debug\net10.0\GenericsUndCollections.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.AssemblyInfoInputs.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.AssemblyInfo.cs
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.csproj.CoreCompileInputs.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.sourcelink.json
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\refint\GenericsUndCollections.dll
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.pdb
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\GenericsUndCollections.genruntimeconfig.cache
+C:\Users\Max.Gronemann\source\repos\DO8CSharp\VertiefungCSharp\GenericsUndCollections\obj\Debug\net10.0\ref\GenericsUndCollections.dll
