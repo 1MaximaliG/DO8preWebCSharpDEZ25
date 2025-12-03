@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D293FB0-346F-4600-9BAF-E0441E1584E5}|ExeptionAufgaben\\ExeptionAufgaben.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\exeptionaufgaben\\aufgabe3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D293FB0-346F-4600-9BAF-E0441E1584E5}|ExeptionAufgaben\\ExeptionAufgaben.csproj|solutionrelative:exeptionaufgaben\\aufgabe3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{026C0003-C532-60F7-7222-30E6B01900A2}|GenericsUndCollections\\GenericsUndCollections.csproj|c:\\users\\max.gronemann\\source\\repos\\do8csharp\\vertiefungcsharp\\genericsundcollections\\aufgabe01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{026C0003-C532-60F7-7222-30E6B01900A2}|GenericsUndCollections\\GenericsUndCollections.csproj|solutionrelative:genericsundcollections\\aufgabe01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,19 +63,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Aufgabe01.cs",
-              "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Aufgabe01.cs",
-              "RelativeDocumentMoniker": "GenericsUndCollections\\Aufgabe01.cs",
-              "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Aufgabe01.cs",
-              "RelativeToolTip": "GenericsUndCollections\\Aufgabe01.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAA6AAAAAAAAAA==",
+              "Title": "Aufgabe3.cs",
+              "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Aufgabe3.cs",
+              "RelativeDocumentMoniker": "ExeptionAufgaben\\Aufgabe3.cs",
+              "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Aufgabe3.cs",
+              "RelativeToolTip": "ExeptionAufgaben\\Aufgabe3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T10:24:10.036Z",
+              "WhenOpened": "2025-12-03T14:28:16.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Aufgabe01.cs",
+              "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Aufgabe01.cs",
+              "RelativeDocumentMoniker": "GenericsUndCollections\\Aufgabe01.cs",
+              "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Aufgabe01.cs",
+              "RelativeToolTip": "GenericsUndCollections\\Aufgabe01.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwDcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:24:10.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Aufgabe00.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Aufgabe00.cs",
               "RelativeDocumentMoniker": "GenericsUndCollections\\Aufgabe00.cs",
@@ -79,12 +95,11 @@
               "RelativeToolTip": "GenericsUndCollections\\Aufgabe00.cs",
               "ViewState": "AgIAACsAAAAAAAAAAADwvzkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:34:43.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T09:34:43.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Beispiele.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Beispiele.cs",
               "RelativeDocumentMoniker": "GenericsUndCollections\\Beispiele.cs",
@@ -96,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\GenericsUndCollections\\Program.cs",
               "RelativeDocumentMoniker": "GenericsUndCollections\\Program.cs",
@@ -104,12 +119,11 @@
               "RelativeToolTip": "GenericsUndCollections\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:24:33.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T09:24:33.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
@@ -120,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Aufgabe2.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Aufgabe2.cs",
               "RelativeDocumentMoniker": "ExeptionAufgaben\\Aufgabe2.cs",
@@ -132,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Program.cs",
               "RelativeDocumentMoniker": "ExeptionAufgaben\\Program.cs",
@@ -144,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringExtensionAufgaben\\Program.cs",
               "RelativeDocumentMoniker": "StringExtensionAufgaben\\Program.cs",
@@ -156,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TN.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ErweiterungsMethoden\\TN.cs",
               "RelativeDocumentMoniker": "ErweiterungsMethoden\\TN.cs",
@@ -168,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ErweiterungsMethoden\\Program.cs",
               "RelativeDocumentMoniker": "ErweiterungsMethoden\\Program.cs",
@@ -180,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\StringsDO8\\Program.cs",
               "RelativeDocumentMoniker": "StringsDO8\\Program.cs",

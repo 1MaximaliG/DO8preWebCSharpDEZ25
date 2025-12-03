@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenericsUndCollections")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9058e99df84f41c49cb023190d218c891aa37446")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+284884f0ddf4f17d1d21dc3d6a354a1197cf4c5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenericsUndCollections")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenericsUndCollections")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
