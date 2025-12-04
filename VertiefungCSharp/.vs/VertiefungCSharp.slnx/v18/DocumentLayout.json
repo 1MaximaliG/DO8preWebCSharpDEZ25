@@ -58,8 +58,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 251,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -68,7 +72,11 @@
               "RelativeDocumentMoniker": "ExeptionAufgaben\\Aufgabe3.cs",
               "ToolTip": "C:\\Users\\Max.Gronemann\\source\\repos\\DO8CSharp\\VertiefungCSharp\\ExeptionAufgaben\\Aufgabe3.cs",
               "RelativeToolTip": "ExeptionAufgaben\\Aufgabe3.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAABkAAAAAAAAAAAA3wB0AAAANAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+>>>>>>> origin/main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T14:28:16.687Z",
               "EditorCaption": ""
