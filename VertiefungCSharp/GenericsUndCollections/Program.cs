@@ -13,7 +13,8 @@ namespace GenericsUndCollections
             var abc = Enum.GetNames<ABC>();//Test für SourceTree
             //Beispiele.TuWas();
             //Aufgabe00.TuWas();
-            Aufgabe01.TuWas();
+            //Aufgabe01.TuWas();
+            Aufgabe02.Tuwas();
         }
     }
 }
