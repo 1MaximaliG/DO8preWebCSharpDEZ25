@@ -195,6 +195,7 @@ namespace StringExtensionAufgaben
         {
             //    Console.WriteLine("Hello, World!".CountCharInString('o'));
             //    Console.WriteLine("Hello, World!".IsPalindrom());
+            Aufgabe3.TuWas();
         }
     }
 }
