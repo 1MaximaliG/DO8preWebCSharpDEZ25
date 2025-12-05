@@ -14,7 +14,8 @@ namespace GenericsUndCollections
             //Beispiele.TuWas();
             //Aufgabe00.TuWas();
             //Aufgabe01.TuWas();
-            Aufgabe02.Tuwas();
+            //Aufgabe02.Tuwas();
+            Aufgabe03.TuWas();
         }
     }
 }
