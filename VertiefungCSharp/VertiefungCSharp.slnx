@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Delegaten/Delegaten.csproj" Id="2bbba238-219f-4692-88de-e45a729e4924" />
   <Project Path="ErweiterungsMethoden/ErweiterungsMethoden.csproj" Id="9bc72784-9d93-480a-aad5-84088212e472" />
   <Project Path="ExeptionAufgaben/ExeptionAufgaben.csproj" Id="3d293fb0-346f-4600-9baf-e0441e1584e5" />
   <Project Path="GenericsUndCollections/GenericsUndCollections.csproj" />
