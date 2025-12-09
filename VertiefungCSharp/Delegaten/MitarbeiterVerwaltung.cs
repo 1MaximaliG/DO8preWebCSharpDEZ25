@@ -14,6 +14,7 @@ namespace Delegaten
         public string Name
         {
             get { return _name; }
+             set { _name = value; }
         }
         public int Alter
         {
@@ -30,6 +31,10 @@ namespace Delegaten
             _alter = alter;
             _name = name;
             _gehalt = gehalt;
+        }
+        public Mitarbeiter()
+        {
+            
         }
         public override string ToString()
         {
@@ -61,6 +66,7 @@ namespace Delegaten
         //Weiterleitung an die Main
         public static void TuWas()
         {
+            Mitarbeiter neuer = new Mitarbeiter { Alter = 20, Gehalt = 25, Name = "Hoerst" };
             Comparison<Mitarbeiter> nachGehalt = (m1, m2) => m1.Gehalt.CompareTo(m2.Gehalt);
             List<Mitarbeiter> liste = new List<Mitarbeiter>
             {
