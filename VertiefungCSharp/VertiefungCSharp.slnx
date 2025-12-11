@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Delegaten/Delegaten.csproj" Id="2bbba238-219f-4692-88de-e45a729e4924" />
   <Project Path="ErweiterungsMethoden/ErweiterungsMethoden.csproj" Id="9bc72784-9d93-480a-aad5-84088212e472" />
+  <Project Path="EventsDO8/EventsDO8.csproj" Id="5988b71a-9f50-4564-983f-1fd4a3b415f8" />
   <Project Path="ExeptionAufgaben/ExeptionAufgaben.csproj" Id="3d293fb0-346f-4600-9baf-e0441e1584e5" />
   <Project Path="GenericsUndCollections/GenericsUndCollections.csproj" />
   <Project Path="LinqDo8/LinqDo8.csproj" Id="2ca03170-6b41-4afc-8428-1eeadbf0c787" />
