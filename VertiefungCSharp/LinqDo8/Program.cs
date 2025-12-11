@@ -31,7 +31,8 @@
             {
                 //Beispiele.TuWas();
                 //Aufgabenblatt1.TuWas();
-                Aufgabenblatt2.TuWas();
+                //Aufgabenblatt2.TuWas();
+                Aufgabenblatt3.TuWas();
 
 
                 //List<Hero> heroes = new List<Hero>
