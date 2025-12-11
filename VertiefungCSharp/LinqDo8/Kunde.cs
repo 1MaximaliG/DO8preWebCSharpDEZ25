@@ -107,26 +107,4 @@ namespace LinqDo8
             };
         }
     }
-
-    //internal class Program
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        Kunde[] kunden = Kunde.GetKundenListe();
-    //        Produkt[] produkte = Produkt.GetProduktListe();
-
-    //        var kundennamen =
-    //            from k in kunden
-    //            select k.Name;
-
-    //        foreach (var name in kundennamen)
-    //        {
-    //            Console.WriteLine(name);
-    //        }
-
-    //        Console.WriteLine("Fertig!");
-            
-
-    //    }
-    //}
 }

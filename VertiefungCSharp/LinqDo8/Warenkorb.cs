@@ -83,6 +83,7 @@
             System.Console.WriteLine($"Der Preis aller Produkte liegt bei: {allepreise.Sum()}");
             System.Console.WriteLine();
             foreach (var kunde in preisprokunde) System.Console.WriteLine(kunde.daten);
+            //test
 
         }
     }
