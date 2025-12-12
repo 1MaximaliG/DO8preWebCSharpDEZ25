@@ -1,0 +1,118 @@
+Strings :
+größe bis ca. 2GB
+Immuatable
+ReferentsTyp
+="Literal"
+= new string('*',11) //Konstruktor
+= new string (charArray)
+	Felder: Length und Chars[]
+	Methoden: StartsWith, EndsWith, IndexOf, LastIndexOf, SubString, Trim, PadLeft, PadRigth, Insert, Remove, Replace, Split,
+		toCharArray
+Syntax {N [,M][: Format]} => C(währung lokal), D(decimal Integer), E(Wissenschaft), F(Festpunkt), G(F oder E, das kompaktere), N(numerisch mit kommaseperator), P(ProzentZahl), X(Hexadecimal)
+
+"{0} {1} {2}",eins,zwei,drei
+$"Interpolation" interpretiert {} und //
+@"Verbatim" welches Symbol interpretiert der Verbatim string nur noch : ""
+
+StringBuilder:
+	StirngBuilder.Append()
+	bildet keine neue Referenz, ist Mutable. Erst wenn maximalgröße erreicht ist wird neue Referenz gebildet
+
+
+Erweiterungsmethoden:
+-werden Statisch dargestellt, werden aber über die Objektinstanz aufgerufen
+-this vor dem ersten Parameter, dieser wird erweitert
+-alle Public Member können benutzt werden
+
+Methoden aus der klasse/Subklasse mit gleichem Namen hat immer Vorrang.
+
+Interfaces können erweitert werden, hier wird voll aus programmiert, da diese Methode nicht von der implementieren Klasse ausgeschrieben werden muss
+Reicht es in der Erweiterung eines Interfaces nur Methoden Signatur an zu geben?
+
+Einfache Collections vs Generische Collections
+
+Was ist Boxing/Unboxing
+Unterschied 
+	Hashtable vs SortedList
+	Dictionary<T> vs SortedList<T>
+alle mit Foreach durchlaufbar
+
+Unterschied Stack und Queue
+
+einfach oder generisch?
+ArrayList
+Hashtable 
+	alles kann ein KEY sein : int, bool, Byte, char, string (auch gleichzeitig)
+SortedList
+	der erste genannte KEY bestimmt welchen Datentyp die anderen Keys haben müssen
+Stack	LIFO
+Queue	FIFO
+
+ T beschränken mit where T:class/struckt
+List<T>
+Dictionary<T> 	hängt neues Element hinten an
+SortedList<T>	sortiert neues Element an richtige stelle
+Stack<T>
+Queue<T>
+
+
+Exceptions
+Try->Catch->finaly
+
+Vererbungs-Hierarchie
+Base = Exeption
+catch exeption Reihenfolge
+
+Member:
+Message
+StackTrace
+innerExeption
+Data
+
+Unterschied: throw, throw ex
+
+So oft wie nötig, so wenig wie möglich!
+Exceptions sind teuer! Viele Situationen lassen sich auch anderweitig lösen.
+niemals ohne guten Grund verwendet werden. Insbesondere nicht, damit unerwartete Fehler geschluckt werden und das Programm nicht abstürzt.
+
+
+
+
+Delegates:
+-Multicast delegates
+	del += Methode;
+	del += Methode;
+	del.Invoke()//führt alle aus FIFO
+-Volle Schreibweise 	
+	MyDelegate del = new MyDelegate(Methode)
+	del.Invoke();
+Kurze schrebeibweise
+	MyDelegate del = Methode;
+	del();
+
+Lambda ausdrücke
+	delegate (int value) {return value * 2;}
+	value => value * 2
+oder 
+	delegate (int a, int b) {return a * b;}
+	(a,b) => a * b
+
+LINQ
+	var zahlen = 
+	from x in X_Collextion
+	where x => x > 17
+	select x
+oder
+	var zahlen = X_Collextion.Where(x => x < 17)
+
+Func<> mit Rückgabe 16 Parameter, einer davon Rückgabe(letzte)
+Action<> Rückgabe = void 16 Paramerter
+Predicate<> Rückgabe = bool, ein Parameter
+
+Wie nennen wir ein in einer Klasse gekapesltes Delegate : Event
+Welche äußeren (public) zugriffe haben wir noch: += / -=
+	- kein überschreiben mit =
+	- kein ausführen mit .Invoke()
+
+EventHandler: hat Kontruktor mit (object Sender, EventArgs e)
+EventHandler<TEventArgs> : hat Kontruktor mit (object Sender, TEventArgs e)
