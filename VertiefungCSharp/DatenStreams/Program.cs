@@ -5,7 +5,10 @@
         static void Main(string[] args)
         {
             //Laufwerke.TuWas();
-            Verzeichnisse.TuWas();
+            //Verzeichnisse.TuWas();
+            //Dateien.TuWas();
+            //Pfade.TuWas();
+            DatenStrom.TuWas();
         }
     }
 }
