@@ -8,7 +8,8 @@
             //Verzeichnisse.TuWas();
             //Dateien.TuWas();
             //Pfade.TuWas();
-            DatenStrom.TuWas();
+            //DatenStrom.TuWas();
+            Dateivergleich.TuWas();
         }
     }
 }
