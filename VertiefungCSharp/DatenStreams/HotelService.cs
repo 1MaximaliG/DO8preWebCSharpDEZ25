@@ -22,11 +22,11 @@ namespace DatenStreams
                     {
                         parts = line.Split(", ");
                         Console.WriteLine($"WKN: {parts[0]}");
-                        parts[1] = " "+parts[1];
+                        parts[1] = " " + parts[1];
                         Console.WriteLine($"Euro: {parts[1]} €");
                         parts[1] = $"{Convert.ToDecimal(parts[1], CultureInfo.GetCultureInfo("en-US")) * 1.95583m:F2}";// das split bei uns mit ", " leerzeichen arbeitet brauche nwir das ',' nicht durch '.' ersetzen
                         Console.WriteLine($"Mark: {parts[1]} DM");
-                        writer.WriteLine(string.Join(", ",parts));
+                        writer.WriteLine(string.Join(", ", parts));
                     }
                 }
             }// datei "data_hotel.txt" wird geschlossen
