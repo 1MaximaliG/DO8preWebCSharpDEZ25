@@ -9,7 +9,10 @@
             //Dateien.TuWas();
             //Pfade.TuWas();
             //DatenStrom.TuWas();
-            Dateivergleich.TuWas();
+            //Dateivergleich.TuWasA();
+            //Dateivergleich.TuWasB();
+            //Dateivergleich.TuWasC();
+            HotelService.TuWas();
         }
     }
 }

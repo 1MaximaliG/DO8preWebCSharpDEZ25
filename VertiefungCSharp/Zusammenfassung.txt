@@ -116,3 +116,35 @@ Welche äußeren (public) zugriffe haben wir noch: += / -=
 
 EventHandler: hat Kontruktor mit (object Sender, EventArgs e)
 EventHandler<TEventArgs> : hat Kontruktor mit (object Sender, TEventArgs e)
+
+Dateien:
+Laufwerke
+	Drive
+	DriveInfo
+	DriveInfo.GetDrives();
+
+Ordner
+	Directory
+	DirectoryInfo
+	instanz.Create();
+	instanz.CreateSubdirectory();
+	Instanz.GetFileSystemInfos("*");
+Dateien
+	File
+	FileInfo
+	instanz.CreateText();
+	instanz.MoveTo(path+name);
+	instanz.CopyTo(path+name);
+	isntanz.Delete();
+
+Streams:
+FileStream
+MemoryStream
+GZipStream
+CryptoStream
+
+StreanWriter/StreamReader
+BinaryWriter/BinaryReader
+Instanz.WriteLine()/Instanz.ReadLine()……
+
+Warum müssen Streams wieder geschlossen werden?

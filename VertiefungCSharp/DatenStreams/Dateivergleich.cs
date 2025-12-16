@@ -98,7 +98,7 @@
             sr2.Close();
             sr1.Close();
         }
-        public static void TuWas()
+        public static void TuWasC()
         {
             string eins = "Test1.txt";
             string zwei = "Test2.txt";
