@@ -12,7 +12,8 @@
             //Dateivergleich.TuWasA();
             //Dateivergleich.TuWasB();
             //Dateivergleich.TuWasC();
-            HotelService.TuWas();
+            //HotelService.TuWas();
+            USWahl.TuWas();
         }
     }
 }
