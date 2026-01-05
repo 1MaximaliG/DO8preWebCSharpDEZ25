@@ -9,7 +9,9 @@ namespace Threads
             //Beispiel1.TuWas();
             //Beispiel2.TuWas();
             //BeispielCancel.TuWas();
-            BeispielFrühstück.TuWas();
+            //BeispielFrühstück.TuWas();
+            //ThreadPoolBeispiel.TuWas();
+            TaskBeispiel.TuWas();
 
         }
     }
