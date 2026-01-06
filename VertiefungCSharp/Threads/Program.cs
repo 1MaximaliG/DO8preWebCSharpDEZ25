@@ -9,24 +9,35 @@ namespace Threads
     {
         public class ThreadGrundlagen
         {
-            public static void MyMethodA()
+            //a)	Schreiben Sie eine statische Methode, die in einer for-Schleife
+            //      100 mal Informationen über den aktuellen Thread ausgibt. Dazu
+            //      sollen die ManagedThreadId, die Priorität und der Status des
+            //      Threads gehören. Zusätzlich soll die Methode innerhalb der Schleife
+            //      eine zufällige Zeit zwischen 100 und 500 Millisekunden „schlafen“.
+            //      Nach Beendigung der Schleife soll die Methode dann ausgeben, dass
+            //      sie das Ende erreicht hat.
+            public static void MyMethodA(CancellationToken token)
             {
-
-            }
-            public static void TuWas()
-            {
-                //a)	Schreiben Sie eine statische Methode, die in einer for-Schleife
-                //      100 mal Informationen über den aktuellen Thread ausgibt. Dazu
-                //      sollen die ManagedThreadId, die Priorität und der Status des
-                //      Threads gehören. Zusätzlich soll die Methode innerhalb der Schleife
-                //      eine zufällige Zeit zwischen 100 und 500 Millisekunden „schlafen“.
-                //      Nach Beendigung der Schleife soll die Methode dann ausgeben, dass
-                //      sie das Ende erreicht hat.
                 Random rng = new Random();
                 for (int i = 0; i < 100; i++)
                 {
-                    Console.WriteLine($"ID:{},   Priorität: {},     Status: {}");
+                    if (token.IsCancellationRequested)
+                    {
+                        //Console.WriteLine($"Beende : {Environment.CurrentManagedThreadId} Status {Thread.CurrentThread.ThreadState}");
+                        break;
+                    }
+                    Console.WriteLine($"ID:{Environment.CurrentManagedThreadId}," +
+                        $"   Priorität: {Thread.CurrentThread.Priority}," +
+                        $"     Status: {Thread.CurrentThread.ThreadState}");
+
+                    //Thread.Sleep(rng.Next(100,501));
                 }
+                Console.WriteLine("ENDE!");
+            }
+            public static void TuWas()//Main
+            {
+                //a)
+                //MyMethodA();
 
                 //b)	Legen Sie im Hauptprogramm eine Liste von Threads an und fügen Sie
                 //      dieser Liste 10 Threads hinzu, die alle Ihre Methode mit der
@@ -38,6 +49,33 @@ namespace Threads
                 //      Dieser Vorgang soll sich nach einer zufälligen Wartezeit zwischen 100
                 //      und 500 Millisekunden solange wiederholen, bis keine Threads mehr in
                 //      der Liste vorhanden sind.
+
+                List<CancellationTokenSource> ctsList = new List<CancellationTokenSource>();
+                for (int i = 0; i < 10; i++)
+                {
+                    ctsList.Add(new CancellationTokenSource());
+                }
+
+                List<Thread> threadList = new List<Thread>();
+                for(int i = 0; i < 10; i++)
+                {
+                    CancellationTokenSource temp = ctsList[i];
+                    threadList.Add(new Thread(() => MyMethodA(temp.Token)));
+                }
+                foreach(Thread t in threadList)
+                {
+                    t.Start();
+                }
+                Random rng = new Random();
+                do
+                {
+                    int n = rng.Next(threadList.Count);
+                    ctsList[n].Cancel();
+                    ctsList.RemoveAt(n);
+                    Console.WriteLine($"Thread{threadList[n].ManagedThreadId} => {threadList[n].ThreadState}"); 
+                    threadList.RemoveAt(n);
+                    Thread.Sleep(rng.Next(1000, 5001));
+                } while (threadList.Count > 0);
 
                 //d)	Erweitern Sie Ihre Methode, so dass sie im Falle eines Abbruchs von
                 //      außen eine passende Meldung mit der ManagedThreadId und dem
