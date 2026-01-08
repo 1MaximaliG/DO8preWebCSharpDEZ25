@@ -6,6 +6,7 @@
   <Project Path="ExeptionAufgaben/ExeptionAufgaben.csproj" Id="3d293fb0-346f-4600-9baf-e0441e1584e5" />
   <Project Path="GenericsUndCollections/GenericsUndCollections.csproj" />
   <Project Path="LinqDo8/LinqDo8.csproj" Id="2ca03170-6b41-4afc-8428-1eeadbf0c787" />
+  <Project Path="Serien/Serien.csproj" Id="9686b7ef-481d-4025-9b71-29a77c5e52ed" />
   <Project Path="StringExtensionAufgaben/StringExtensionAufgaben.csproj" Id="5aec0bba-bf41-48b4-ade7-6b5a220b334d" />
   <Project Path="StringsDO8/StringsDO8.csproj" Id="42b61196-734b-4a4d-be05-8ca0d8d46185" />
   <Project Path="Threads/Threads.csproj" Id="6d261936-7434-42db-a030-09b7a1adcb42" />
