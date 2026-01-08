@@ -4,37 +4,6 @@ using System.Xml.Serialization;
 
 namespace Serien
 {
-    [Serializable]
-    public class Hero
-    {
-        public string Name;
-        public Hero Partner;
-
-        [NonSerialized]
-        public string stuff;
-
-        private int _alter;
-
-        public Hero() { }//brauchen wir für xml
-        public Hero(string name, int alter)
-        {
-            Name = name;
-            this._alter = alter;
-        }
-        public int getAge()
-        {
-            return _alter;
-        }
-    }
-    public class JSONHero
-    {
-        public string HeroName { get; set; }
-        [JsonIgnore] public string FirsName { get; set; }
-        [JsonIgnore] public string LastName { get; set; }
-        public string Gang { get; set; }
-        public JSONHero Partner { get; set; }
-        public List<string> Gedgets { get; set; }
-    }
     internal partial class Program
     {
 
@@ -101,10 +70,74 @@ namespace Serien
             Console.WriteLine(newBatman.FirsName);
             Console.WriteLine(newBatman.Gedgets[0]);
         }
+        public class Person
+        {
+            public string VorName { get; set; }
+            public string NachName { get; set; }
+            public int Alter { get; set; }
+        }
+        public static void Laden()
+        {
+            Console.WriteLine("Welche Person soll geladen werden?");
+            string eingabe = Console.ReadLine().Replace(" ", "");
+            string file = eingabe + ".txt";
+            if (File.Exists(file))
+            {
+                string inhalt = File.ReadAllText(file);
+                Person x = JsonSerializer.Deserialize<Person>(inhalt);
+                Console.WriteLine("Vorname: " + x.VorName);
+                Console.WriteLine("Nachname: " + x.NachName);
+                Console.WriteLine("Alter: " + x.Alter);
+            }
+            else
+            {
+                Console.WriteLine(file + " exisitiert nicht!!!");
+            }
+
+        }
+        public static void Speichern()
+        {
+            Person a = new Person();
+            Console.WriteLine("Bitte gib einen Vornamen ein");
+            a.VorName = Console.ReadLine();
+            Console.WriteLine("Bitte gib einen Nachnamen ein");
+            a.NachName = Console.ReadLine();
+            Console.WriteLine("Bitte gib das Alter ein");
+            a.Alter = Convert.ToInt32(Console.ReadLine());
+            string file = a.VorName + a.NachName + ".txt";
+            var options = new JsonSerializerOptions();
+            options.WriteIndented = true;
+            string serialisiertePerson = JsonSerializer.Serialize(a, options);
+
+            File.WriteAllText(file, serialisiertePerson);
+        }
         static void Main(string[] args)
         {
             //XmlExample();
-            JsonExample();
+            //JsonExample();
+            while (true)
+            {
+                Console.WriteLine("1: Laden");
+                Console.WriteLine("2: Speichern");
+                Console.WriteLine("3: Beenden");
+                Console.Write("Eingabe: ");
+                string eingabe = Console.ReadLine();
+                switch (eingabe)
+                {
+                    case "1":
+                        Laden();
+                        break;
+                    case "2":
+                        Speichern();
+                        break;
+                    case "3":
+                        //Beenden
+                        return;//Beendet hier die Main Methode
+                    default:
+                        Console.WriteLine("invalide eingabe");
+                        break;
+                }
+            }
 
         }
     }
