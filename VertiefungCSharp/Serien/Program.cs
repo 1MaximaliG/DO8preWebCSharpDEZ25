@@ -215,8 +215,8 @@ namespace Serien
             Person02 person1 = JsonSerializer.Deserialize<Person02>(File.ReadAllText("sieben.json"));
             Person02 person2 = JsonSerializer.Deserialize<Person02>(File.ReadAllText("sechs.json"));
             Console.WriteLine(person1.Blag.Blag);
-            Console.WriteLine(person2.Blag.Blag);
-            Console.WriteLine(person1.Blag.Blag== person2.Blag.Blag);
+            Console.WriteLine(person2.Blag.Blag);//Blag = Kind
+            Console.WriteLine(person1.Blag.Blag== person2.Blag.Blag);//nicht das gleiche Objekt
 
 
         }
